@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/entry.ts",
-    "test": "jest --no-cache"
+    "test": "jest --no-cache",
+    "build": "tsc",
+    "prod": "npm run build && node dist/src/entry.js"
   },
   "jest": {
     "transform": { 
