@@ -23,5 +23,6 @@ const normalizePort = (val: any) => {
   app.set("port", port);
   
   const server = http.createServer(app);
-  server.listen(port);
+
+  export default server;
   

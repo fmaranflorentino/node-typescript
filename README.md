@@ -1,1 +1,1 @@
-# Arquitetura de Projeto node em Typescript
+# Basic template for node and typescript

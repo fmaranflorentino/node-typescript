@@ -20,6 +20,6 @@ app.use((_, res, next) => {
   next();
 });
 
-app.use('/api/route', AppRoute);
+app.use(AppRoute);
 
 export default app;
